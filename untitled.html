@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Curso Front End JS</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+		<div class="navbar">
+			<a href="#inicio">Inicio</a>
+			<a href="#queeslinux">Qué es Linux?</a>
+			<a href="#distros">Distribuciones/Distros</a>
+			<a href="">Comparaciones entre Diferentes Distros</a>
+			<a href="#contacto">Contacto</a>
+		</div>
+<div class="content-container">
+<div class="main-content">
+			<section id="inicio" class="bienvenida">
+				<h1>Todo sobre Linux</h1>
+		<img src="./images/linuxpc.png" alt="computadora con tux en la pantalla" width="30%">
+		</section>
+	
+		<section id="queeslinux">
+			<h1>Qué es Linux?</h1>
+		<p>Linux es un sistema operativo de código abierto basado en Unix, diseñado para ser una alternativa libre y gratuita a otros sistemas comerciales como Windows o macOS. Se utiliza en una amplia variedad de dispositivos, desde servidores, supercomputadoras, hasta dispositivos móviles y computadoras personales. A diferencia de otros sistemas, Linux permite a los usuarios modificar su código fuente, lo que lo hace extremadamente flexible y personalizable.</p>
+		</section>
+		
+		<section id="distros">
+			<h1>Distribuciones/Distros</h1>
+			<p>
+				Linux no es un sistema operativo único, sino que está compuesto por diferentes distribuciones (o distros), cada una de ellas diseñada con características particulares y adaptada a distintos usos. Entre las más populares se encuentran:</p>
+				<ul>
+				<li><span class="first-word">Ubuntu:</span> Es una de las distribuciones más amigables para los nuevos usuarios de Linux. Ideal para quienes buscan una experiencia similar a Windows o macOS.</li>
+				<img src=./images/ubuntu-21.04-desktop.jpg alt="escritorio de Ubuntu">
+				<li><span class="first-word">Debian:</span> Conocido por su estabilidad, Debian es ideal para servidores y usuarios que priorizan la fiabilidad y seguridad.</li>
+				<img src=./images/debian-12-to-13-upgrade-13-530527434.jpg alt="escritorio de Debian GNOME">
+				<li><span class="first-word">Fedora:</span> Respaldada por Red Hat, Fedora es una distro que se enfoca en integrar las últimas tecnologías de software libre.</li>
+				<img src=./images/fedora42-kde-desktop-434265365.jpg alt="escritorio de fedora KDE">
+				<li><span class="first-word">Arch Linux:</span> Destinada a usuarios avanzados que desean un control completo sobre su sistema operativo. Su instalación y configuración requieren experiencia técnica.</li>
+				<img src=./images/image-259720487.png alt="Arch Linux con Hyprland configurado">
+		</section>
+		
+		<section id="contacto">
+			<h2>Contactanos</h2>
+			<p>Si tenés preguntas o querés dar feedback, dejanos tus datos y comentarios acá abajo:</p>
+			<form action="https://formspree.io/f/xdkwwkdz" method="POST">
+				<label for="nombre">Nombre</label>
+				<input type="text" id="nombre" name="nombre" required>
+				
+				<label for="nombre">Correo Electrónico</label>
+				<input type="email" id="email" name="email" required>
+				
+				<label for="mensaje">Mensaje:</label>
+				<textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+			
+				<button type="submit">Enviar</button>
+			</form>
+			</section>
+
+</div>
+		<div class="sidebar">
+			<h2>Links útiles:</h2>
+			<p>Distrowatch</p>
+			<p>Distrochooser</p>
+			<p>Fedora Project</p>
+			<p>Arch Wiki</p>
+			
+			<h2>Mis redes sociales:</h2>
+
+		</div>
+</div>
+<footer>
+	<p>Autor: Nicolás Agustín González</p>
+</footer>
+</body>
+
+</html>

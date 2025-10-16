@@ -1,6 +1,3 @@
-# PreEntregaProyectoNicolasAgustinGonzalez
-Pre Entrega del Proyecto Final del Curso Front End JS
-
 Esto es parte de la pre entrega del proyecto final, aplicando todo lo visto hasta ahora sobre HTML y CSS.
 
 # De qué trata el sitio?
