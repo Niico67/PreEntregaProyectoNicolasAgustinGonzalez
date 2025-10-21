@@ -53,7 +53,7 @@ a:hover {
 
 
 .bienvenida {
-	font-size: 40px;
+	font-size: 32px;
 	color: white;
 	padding-top: 5vh;
 }
@@ -72,9 +72,15 @@ input, select, textarea {
 }
 
 #contacto button {
-	max-width: 25%;
-	margin-left: 40%;
-	color: black;
+	max-width: 20%;
+	margin-left: 42%;
+	margin-top: 20px;
+	color: red;
+	font-weight: bold;
+	background-color: white;
+}
+#contacto button:hover {
+color: black;
 }
 
 #distros li {
@@ -92,16 +98,60 @@ width: 50%;
 padding-top: 5vh;
 }
 
-#distros .first-word {
+.first-word {
 font-size: 25px;
 font-weight: bold;
 }
+
+.glosario-linux h1 {
+	text-align: center;
+}
+
+.glosario-linux {
+	text-align: left;
+}
+
+.glosario-linux li {
+   font-size: 18px;
+   padding: 1vh;
+}
+
+.grid-comparacion {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    border: 5px solid #110f1c;
+}
+
+.grid-comparacion img {
+	  width: 20%;
+	  height: auto;
+}
+
+  .cabecera-distro {
+	border: 5px solid #110f1c;
+	background-color: grey;
+    font-weight: bold;
+  }
+  
+    .cabecera-descripcion {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 5px solid #110f1c;
+    font-weight: bold;
+  }
+  
+  .descripcion-distro {
+  font-weight: bold;
+  padding: 5px;
+  }
+
 
 footer {
     height: 5vh;
     width: 100%;
     background-color: #1f2937;
-
 }
 
 footer p {
@@ -109,7 +159,7 @@ footer p {
     margin-top: 2vh;
     text-align: center;
  }
-
+ 
  .sidebar {
     flex: 1;
     background-color: #110F1C;
@@ -117,6 +167,22 @@ footer p {
     overflow-y: auto;
     padding-top: 5vh;
   }
+  
+  .sidebar a {
+  font-size: 25px;
+  display: flex;
+  padding-top: 1vh;
+  color: white;
+  }
+  
+  .sidebar a:hover {
+  color: red;
+  }
+
+	.sidebar img {
+	padding-top: 100%;
+	width: 50%;
+	}
 
 @media screen and (max-width: 800px) {
   .navbar {
